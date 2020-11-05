@@ -6,7 +6,8 @@ TUDO que é transformação de dados fica na rota, TUDO que é regra de negocio 
 Model- Como o dado é composto (os campos)
 O Repository (usa o Model) é um conceito introduzido que consiste em uma ponte entre a aplicação e a fonte de dados, além de ser bem útil para reaproveitamento
 SOC- Separate of Concerns (separar ao máximo as responsabilidades)
-DRY- Don't Repeat Yourself
+DRY- Don't Repeat Yourself (Preza principalmente pela não-repetição de regras de negócio)
+SRP- Single Responsability Principle (Zela que uma classe deve possuir  apenas uma responsabilidade em seu método execute)
 O service não tem acesso ao Request nem ao Response
 O service tem apenas uma responsabilidade
 Depedency Inversion- Sempre que o service tiver uma dependencia externa (um array fora por exemplo) vamos receber essa dependencia no metodo constructor
@@ -15,8 +16,8 @@ As rotas devem estar preocupadas em apenas receber uma requisição e chamar out
 SOLID
 
 S single responsability principle
-
-
-
+O Open-closed Principle
+L Liskov substitution Principle
+I Interface segregation Principle
 D Depedency Invertion Principle
 
